@@ -2,6 +2,9 @@ import React from "react";
 import "./project.css";
 import  carRental  from "../../assets/car-rental.png";
 import  clickandbuy  from "../../assets/clickandbuy.png";
+import  mediamate  from "../../assets/mediamate-high-resolution-logo-transparent.png";
+import  todo  from "../../assets/todo.png";
+import  doThis  from "../../assets/DT.png";
 
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -38,20 +41,30 @@ function Project() {
         modules={[Pagination]}
       >
         <SwiperSlide className="testimonial_card">
-          <a href="https://car-rental-car.netlify.app/" target="blank"><img src={carRental} alt="" className="testimonial_img" /></a>
+          <a href="https://github.com/Sanoop-PR/cars-rental.git" target="blank"><img src={carRental} alt="" className="testimonial_img" />
           <h3 className="testimonial_name">car rental</h3>
-          <p className="testimonial_description">Mean Project</p>
+          <p className="testimonial_description">Mean Project</p></a>
         </SwiperSlide>
         <SwiperSlide className="testimonial_card" >
-          <img src={clickandbuy} alt="" className="testimonial_img" />
+          <a href="https://github.com/Sanoop-PR/Click_and_Buy.git"><img src={clickandbuy} alt="" className="testimonial_img" />
           <h3 className="testimonial_name">Click & Buy</h3>
-          <p className="testimonial_description">Mern Project</p>
+          <p className="testimonial_description">Mern Project</p></a>
         </SwiperSlide>
-        {/* <SwiperSlide className="testimonial_card" >
-          <img src={Image1} alt="" className="testimonial_img" />
-          <h3 className="testimonial_name">drtfgyuhijkl</h3>
-          <p className="testimonial_description">fdghjklghjkl</p>
-        </SwiperSlide> */}
+        <SwiperSlide className="testimonial_card" >
+          <a href="https://github.com/Sanoop-PR/mediamate.git"><img src={mediamate} alt="" className="testimonial_img" />
+          <h3 className="testimonial_name">Mediamate</h3>
+          <p className="testimonial_description">Mern Project</p></a>
+        </SwiperSlide>
+        <SwiperSlide className="testimonial_card" >
+          <a href="https://github.com/Sanoop-PR/mern_todo"><img src={todo} alt="" className="testimonial_img" />
+          <h3 className="testimonial_name">Todo App</h3>
+          <p className="testimonial_description">Mern Project</p></a>
+        </SwiperSlide>
+        <SwiperSlide className="testimonial_card" >
+          <a href="https://github.com/Sanoop-PR/do_this_frontend.git"><img src={doThis} alt="" className="testimonial_img" />
+          <h3 className="testimonial_name">Do This</h3>
+          <p className="testimonial_description">React Native project</p></a>
+        </SwiperSlide>
       </Swiper>
     </section>
   );

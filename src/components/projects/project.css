@@ -1,5 +1,5 @@
 .testimonial_container{
-    width: 750px;
+    width: 100%;
     margin-top: 1rem;
 }
 .testimonial_card{
@@ -10,7 +10,8 @@
     margin-bottom: var(--mb-3);
 }
 .testimonial_img{
-    /* width: 100px; */
+    width: 100%;
+    height: 150px;
     border-radius: 1rem;
     margin-bottom: var(--mb-3);
 }
@@ -21,4 +22,6 @@
 }
 .testimonial_description{
     font-size: var(--small-font-size);
+    text-decoration: none;
+    color: grey;
 }

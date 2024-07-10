@@ -116,7 +116,7 @@ function ContactMe() {
               <h3 className="contact_card-title">Whatsapp</h3>
               <span className="contact_card-data">8606410260</span>{" "}
               <a
-                href="https://api.whatsapp.com/send?phone=8606410260"
+                href="https://wa.me/918606410260"
                 className="contact_button"
               >
                 Write me{" "}
@@ -146,7 +146,7 @@ function ContactMe() {
             <div
               className="contact_form-div"
               data-aos="fade-down"
-              data-aos-offset="200"
+              data-aos-offset="250"
               data-aos-delay="50"
               data-aos-duration="1000"
             >
@@ -161,8 +161,8 @@ function ContactMe() {
             <div
               className="contact_form-div contact_form-area"
               data-aos="fade-down"
-              data-aos-offset="300"
-              data-aos-delay="50"
+              data-aos-offset="100"
+              data-aos-delay="500"
               data-aos-duration="1000"
             >
               <label className="contact_form-tag">Message</label>

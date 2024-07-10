@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/IMG_20230904_201351.jpg";
-import CV from "../../assets/SANOOP PR - RESUME.pdf";
+import CV from "../../assets/SANOOP PR.pdf";
 import Infos from "./Infos";
 
 function About() {

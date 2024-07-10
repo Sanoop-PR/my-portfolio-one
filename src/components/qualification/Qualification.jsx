@@ -47,8 +47,8 @@ function Qualification() {
               </div>
               <div
                 data-aos="fade-right"
-                data-aos-offset="150"
-                data-aos-delay="50"
+                data-aos-offset="100"
+                data-aos-delay="150"
                 data-aos-duration="1000"
               >
                 <h3 className="qualification_title">
@@ -65,8 +65,8 @@ function Qualification() {
             <div className="qualification_data">
               <div
                 data-aos="fade-left"
-                data-aos-offset="200"
-                data-aos-delay="50"
+                data-aos-offset="100"
+                data-aos-delay="250"
                 data-aos-duration="1000"
               >
                 <h3 className="qualification_title">BIOLOGY SCIENCE</h3>
@@ -90,8 +90,8 @@ function Qualification() {
               </div>
               <div
                 data-aos="fade-right"
-                data-aos-offset="250"
-                data-aos-delay="50"
+                data-aos-offset="100"
+                data-aos-delay="350"
                 data-aos-duration="1000"
               >
                 <h3 className="qualification_title">SSLC</h3>
